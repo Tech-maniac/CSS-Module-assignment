@@ -1,0 +1,146 @@
+body {margin:0;
+  background-image: url("https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_2000,h_1500/https://nicolesparvieri.com/wp-content/uploads/2020/03/Nicole-Sparveri-Luxury-Experiences-Concierge-Lifestyle-3.jpg");
+  background-size: cover;
+}
+
+.button5:hover {
+    background-color: rgb(200, 147, 68);
+    color: white;
+  }
+  .button3:hover {
+    background-color: rgb(200, 147, 68);
+    color: white;
+  }
+  .button2:hover {
+    background-color: rgb(200, 147, 68);
+    color: white;
+  }
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-bottom: solid 4px #FFA000;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    z-index: 2; 
+    width: 15%;
+    left: 15%;
+    top: -50px;
+    height: 5em;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+
+  }
+  .button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-bottom: solid 4px #FFA000;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    z-index: 2; 
+    width: 15%;
+    left: 43%;
+    top: -50px;
+    height: 5em;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+
+  }
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-bottom: solid 4px #FFA000;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    z-index: 2; 
+    width: 15%;
+    left: 68%;
+    top: -50px;
+    height: 5em;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;  
+
+  }
+
+  
+  .button4:hover {background-color: #e7e7e7;}
+.wrapper 
+{position: relative;}
+.dashed-box {
+    position: relative;
+    z-index: 1;
+    border: dashed;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    background-color: aqua;
+  }
+ 
+  .green-box1 {
+    position: absolute;
+    z-index: 2; 
+    background: lightgreen;
+    width: 15%;
+    left: 45%;
+    top: -65px;
+    height: 5em;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 40px;
+
+  }
+  .green-box2 {
+    position: absolute;
+    z-index: 2; 
+    background: lightgreen;
+    width: 15%;
+    left: 70%;
+    top: -65px;
+    height: 5em;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 40px;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.main-img{
+    margin-left: 15%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(200, 147, 68);
+}
